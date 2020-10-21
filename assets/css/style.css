@@ -255,7 +255,6 @@ header nav {
     .contact-info iframe {
       width: 400px;
       height: 400px;
-      display: inline-block;
     }
     
     .contact-info div {
@@ -282,5 +281,5 @@ header nav {
     .contact-info a {
       color: #fce138;
     }
-    
+        
     /* REACH OUT STYLES END */
