@@ -234,9 +234,11 @@ header nav {
     /* Meet the Trainers Section End */
 
     /* REACH OUT STYLES START */
+
     .contact {
       text-align: center;
       background: #024e76;
+      display: inline-block;
     }
 
     .section-title {
@@ -277,6 +279,7 @@ header nav {
       line-height: 1.5;
       font-size: 20px;
       font-style: normal;
+      display: inline-block;
     }
     
     .contact-info a {
