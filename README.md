@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy Inc.
 
 ## Purpose 
 ​A website that offers **fitness training services**.
@@ -11,7 +11,9 @@
 https://valiantcreative33.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [Ruben Matamoros] 
+Made with ❤️ by Ruben Matamoros
+
+### ©️2019 Run Buddy, Inc
 ​
 ## Mockup Screenshot 
 ​
