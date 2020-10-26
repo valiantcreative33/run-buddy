@@ -438,26 +438,24 @@ header nav ul li a:hover {
 
 .service-grid-container {
   display: grid;
-  background: lightyellow;
-  width: 80%;
-  /* repeat(iterator, size) */
   grid-template-columns: 1fr repeat(2, 4fr);
   grid-template-rows: repeat(5, 1fr) 2fr;
-  border: 1px solid var(--secondary-color);
+  background: lightyellow;
+  width: 80%;
+  border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   font-size: 1.2rem;
-} 
+}
 
 .service-grid-item {
   padding: 15px 0;
-  border: 1px solid var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
-/* specific match */
 .service-grid-item.basic {
   grid-column: 2 / span 1;
 }
@@ -554,6 +552,9 @@ header nav ul li a:hover {
 .contact form button:hover {
   color: var(--primary-color);
   background: var(--tertiary-color);
+  outline-style: auto; 
+  outline-offset: var(--primary-color);
+  border-radius: 3px;
 }
 
 .contact-info iframe {
@@ -566,6 +567,7 @@ header nav ul li a:hover {
   header {
     padding-bottom: 0;
     justify-content: center;
+    position: relative;
   }
 
   header h1 {
@@ -623,24 +625,8 @@ header nav ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .service-grid-item.basic {
-    grid-column: 1;
-  }
-
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
-
-  .service-grid-item.cancel {
-    transform: none;
-    writing-mode: unset;
-    grid-column: 1 / -1;
-    grid-row: -1;
+  section {
+    padding: 30px 15px;
   }
 }
 
